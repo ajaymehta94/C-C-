@@ -140,6 +140,14 @@ Float: 19.990000
 Character: B 
 Age: 21 */
 
+/* In many other programming languages like py , java and c++ you would normally use a print fn to display the value of a variable, however , this is not possible in c 
+example - 
+ int myNum = 15 ;
+ printf (myNum); 
+Output - Error 
+ this will cause an errror 
+so to print variable in c , use format specifire 
+formate specifier in next file oky */
 
  
 
