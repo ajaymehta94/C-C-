@@ -87,6 +87,60 @@ int main() {
 /* Output 
 Hello World!Have a good day!Hello World! 
 I am learning C.*/
+
+
+ // 3 . C Variables
+ /*
+ * Variables => Variables are Containers for storing data value,
+ * like numbers and characters.
+ *
+ * - int   - stores whole numbers (integers), such as 123 or -123
+ * - float - stores numbers with decimals, such as 19.99 or -19.99
+ * - char  - stores a single character, such as 'a' or 'B'
+ *           characters are surrounded by single quotes
+ *
+ * (Declaring) Creating Variables =>
+ * To create a variable, You must specify the type and give a name of Variable.
+ * Syntax => // type variableName = value;
+ *
+ * Create a variable named "myNum" of type int and assign the value 15.
+ * // int myNum = 15;
+ *
+ * You can also declare a variable first and assign value later.
+ * Ex-
+ * // Declare a Variable
+ * int myNum;
+ * // Assign a value later
+ * myNum = 15;
+ */
+
+#include <stdio.h>
+
+int main() {
+    // 1. Declaring and assigning together
+    int myNum = 15;      // stores whole numbers
+    float myFloat = 19.99; // stores decimals
+    char myChar = 'B';   // stores a single character
+
+    // 2. Declare first, assign later
+    int age;
+    age = 21;
+
+    // Print all variables
+    printf("Integer: %d \n", myNum);
+    printf("Float: %f \n", myFloat);
+    printf("Character: %c \n", myChar);
+    printf("Age: %d \n", age);
+
+    return 0;
+}
+/* Output 
+Integer: 15 
+Float: 19.990000 
+Character: B 
+Age: 21 */
+
+
  
 
  
