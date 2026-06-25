@@ -10,7 +10,7 @@ int main() {
     // Student data - good naming style
     int studentID = 101;
     char studentGrade = 'A';
-    char studentName[] = "Rahul Sharma";
+    char studentName[] = "Rahul Sharmaji";
     
     // Marks in 3 subjects - multiple variables
     int mathMarks = 85, scienceMarks = 92, englishMarks = 78;
